@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>client εφαρμογής για το web service Μη Φυσικών Προσώπων της Γ.Γ.Π.Σ</title>
+    <link href="assets/css/site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<h2>client εφαρμογής για το web service Μη Φυσικών Προσώπων της Γ.Γ.Π.Σ</h2>
+    <p>
+   Η παρούσα σελίδα περιέχει παραδείγματα κώδικα που χρησιμοποιεί την υπηρεσία   (Webservice) της Γ.Γ.Π.Σ : «<a 
+            href="http://www.gsis.gr/wsnp.html" target="_blank">Βασικά Στοιχεία Φορολογουμένου (για Νομικό Πρόσωπο)</a>»
+   Τα παραδείγματα που παρατίθενται έχουν υλοποιηθεί σε πλατφόρμα ASP.NET με χρήση C# για την κλήση του webservice και συνδιασμό ASP.NET / HTML / JQUERY για την παρουσίαση.
+   Ο πηγαίος κώδικας είναι διαθέσιμος <a href="http://code.google.com/p/wsnp-gsis-gr/" target="_blank">εδώ</a> και διανέμεται ως λογισμικό ανοικτού κώδικα σύμφωνα με την άδεια <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0</a>
+    </p>
+    
+    <table>
+    <caption>Παραδείγματα Κλήσης Webservice</caption>
+        <tr>
+            <td>
+                <a href="BashStoixeionN_Simple.aspx">Κλήση με postback (simple)</a>
+            </td>
+            <td>
+                 <p>
+                 H κλήση γίνεται με Postback στον webserver ενώ επιστρέφεται μόνο η επωνυμία και η δραστηριότητα της επιχείρησης.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="BashStoixeionN_FullAsync.aspx">Κλήση με ajax (full)</a>
+           </td>
+            <td>
+                <p>
+                Στο παράδειγμα αυτό η κλήση του webservice γίνεται με χρήση AJAX  , ενώ επιστρέφονται περισσότερες πληροφορίες σχετικά με το νομικό ή φυσικό πρόσωπο.
+                </p>
+            </td>
+        </tr>
+
+    </table>
+    <br />
+    <br />
+  
+   
+    
+
+</body>
+</html>

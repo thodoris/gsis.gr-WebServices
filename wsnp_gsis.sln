@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "wsnp_gsis", "D:\Thodoris Work\thodoris.net\web projects\wsnp_gsis\", "{20244686-A7D9-407A-9AB2-266D0931DA5B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/wsnp_gsis"
+		Debug.AspNetCompiler.PhysicalPath = "..\wsnp_gsis\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\wsnp_gsis\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/wsnp_gsis"
+		Release.AspNetCompiler.PhysicalPath = "..\wsnp_gsis\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\wsnp_gsis\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49765"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20244686-A7D9-407A-9AB2-266D0931DA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20244686-A7D9-407A-9AB2-266D0931DA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
